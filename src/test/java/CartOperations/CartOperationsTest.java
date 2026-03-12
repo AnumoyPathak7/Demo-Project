@@ -79,6 +79,7 @@ public class CartOperationsTest extends BaseClass {
 
         res.then().statusCode(200).log().all();
         System.out.println("deleted");
+        System.out.println("MyBranch");
     }
     
 }
