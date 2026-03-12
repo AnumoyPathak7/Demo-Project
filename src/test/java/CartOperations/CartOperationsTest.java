@@ -78,5 +78,7 @@ public class CartOperationsTest extends BaseClass {
                 .delete(EndPoints.DELETE_CART);
 
         res.then().statusCode(200).log().all();
+        System.out.println("deleted");
     }
+    
 }
